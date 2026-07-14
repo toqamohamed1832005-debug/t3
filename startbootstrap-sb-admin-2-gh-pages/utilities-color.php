@@ -1,26 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
+<?php
 
-<head>
+include"includes/header.php";
 
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
 
-    <title>SB Admin 2 - 404</title>
-
-    <!-- Custom fonts for this template-->
-    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
-    <link
-        href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
-        rel="stylesheet">
-
-    <!-- Custom styles for this template-->
-    <link href="css/sb-admin-2.min.css" rel="stylesheet">
-
-</head>
+?>
 
 <body id="page-top">
 
@@ -35,7 +18,7 @@
                 <div class="sidebar-brand-icon rotate-n-15">
                     <i class="fas fa-laugh-wink"></i>
                 </div>
-                <div class="sidebar-brand-text mx-3">TASK 3</div>
+                <div class="sidebar-brand-text mx-3">SB Admin <sup>2</sup></div>
             </a>
 
             <!-- Divider -->
@@ -45,8 +28,7 @@
             <li class="nav-item">
                 <a class="nav-link" href="index.html">
                     <i class="fas fa-fw fa-tachometer-alt"></i>
-                    <span>Dashboard</span>
-                </a>
+                    <span>Dashboard</span></a>
             </li>
 
             <!-- Divider -->
@@ -59,27 +41,7 @@
                 Addons
             </div>
 
-            <!-- Nav Item - Pages Collapse Menu -->
-            <li class="nav-item active">
-                <a class="nav-link" href="#" data-toggle="collapse" data-target="#collapsePages" aria-expanded="true"
-                    aria-controls="collapsePages">
-                    <i class="fas fa-fw fa-folder"></i>
-                    <span>Pages</span>
-                </a>
-                <div id="collapsePages" class="collapse show" aria-labelledby="headingPages"
-                    data-parent="#accordionSidebar">
-                    <div class="bg-white py-2 collapse-inner rounded">
-                        <h6 class="collapse-header">Login Screens:</h6>
-                        <a class="collapse-item" href="login.html">Login</a>
-                        <a class="collapse-item" href="register.html">Register</a>
-                        <a class="collapse-item" href="forgot-password.html">Forgot Password</a>
-                        <div class="collapse-divider"></div>
-                        <h6 class="collapse-header">Other Pages:</h6>
-                        <a class="collapse-item active" href="404.html">404 Page</a>
-                        <a class="collapse-item" href="blank.html">Blank Page</a>
-                    </div>
-                </div>
-            </li>
+          
 
             <!-- Nav Item - Charts -->
             <li class="nav-item">
@@ -307,37 +269,7 @@
 
 <!-- بعد ما تحطي الكود، هيفضل تحتك الـ topbar-divider وباقي الكود زي ما هو -->
 <div class="topbar-divider d-none d-sm-block"></div>
-                        
-<!-- حطي الكود الجديد هنا بالظبط بعد الـ </li> اللي واقفة عندها -->
 
-<!-- Nav Item - Custom Notifications -->
-<li class="nav-item dropdown no-arrow mx-1">
-    <a class="nav-link dropdown-toggle" href="#" id="customNotificationDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-        <i class="fas fa-star fa-fw"></i>
-        <span class="badge badge-danger badge-counter">5</span>
-    </a>
-    
-    <div class="dropdown-list dropdown-menu dropdown-menu-right shadow animated--grow-in" aria-labelledby="customNotificationDropdown">
-        <h6 class="dropdown-header">
-            إشعارات جديدة
-        </h6>
-        <a class="dropdown-item d-flex align-items-center" href="#">
-            <div class="mr-3">
-                <div class="icon-circle bg-primary">
-                    <i class="fas fa-file-alt text-white"></i>
-                </div>
-            </div>
-            <div>
-                <div class="small text-gray-500">July 8, 2026</div>
-                <span class="font-weight-bold">هذا إشعار تجريبي جديد!</span>
-            </div>
-        </a>
-        <a class="dropdown-item text-center small text-gray-500" href="#">عرض كل الإشعارات</a>
-    </div>
-</li>
-
-<!-- بعد ما تحطي الكود، هيفضل تحتك الـ topbar-divider وباقي الكود زي ما هو -->
-<div class="class="topbar-divider d-none d-sm-block"></div>
                         <div class="topbar-divider d-none d-sm-block"></div>
 
                         <!-- Nav Item - User Information -->
@@ -379,12 +311,96 @@
                 <!-- Begin Page Content -->
                 <div class="container-fluid">
 
-                    <!-- 404 Error Text -->
-                    <div class="text-center">
-                        <div class="error mx-auto" data-text="404">404</div>
-                        <p class="lead text-gray-800 mb-5">Page Not Found</p>
-                        <p class="text-gray-500 mb-0">It looks like you found a glitch in the matrix...</p>
-                        <a href="index.html">&larr; Back to Dashboard</a>
+                    <!-- Page Heading -->
+                    <h1 class="h3 mb-1 text-gray-800">Color Utilities</h1>
+                    <p class="mb-4">Bootstrap's default utility classes can be found on the official <a
+                            href="https://getbootstrap.com/docs">Bootstrap Documentation</a> page. The custom utilities
+                        below were created to extend this theme past the default utility classes built into Bootstrap's
+                        framework.</p>
+
+                    <!-- Content Row -->
+                    <div class="row">
+
+                        <!-- First Column -->
+                        <div class="col-lg-4">
+
+                            <!-- Custom Text Color Utilities -->
+                            <div class="card shadow mb-4">
+                                <div class="card-header py-3">
+                                    <h6 class="m-0 font-weight-bold text-primary">Custom Text Color Utilities</h6>
+                                </div>
+                                <div class="card-body">
+                                    <p class="text-gray-100 p-3 bg-dark m-0">.text-gray-100</p>
+                                    <p class="text-gray-200 p-3 bg-dark m-0">.text-gray-200</p>
+                                    <p class="text-gray-300 p-3 bg-dark m-0">.text-gray-300</p>
+                                    <p class="text-gray-400 p-3 bg-dark m-0">.text-gray-400</p>
+                                    <p class="text-gray-500 p-3 m-0">.text-gray-500</p>
+                                    <p class="text-gray-600 p-3 m-0">.text-gray-600</p>
+                                    <p class="text-gray-700 p-3 m-0">.text-gray-700</p>
+                                    <p class="text-gray-800 p-3 m-0">.text-gray-800</p>
+                                    <p class="text-gray-900 p-3 m-0">.text-gray-900</p>
+                                </div>
+                            </div>
+
+                            <!-- Custom Font Size Utilities -->
+                            <div class="card shadow mb-4">
+                                <div class="card-header py-3">
+                                    <h6 class="m-0 font-weight-bold text-primary">Custom Font Size Utilities</h6>
+                                </div>
+                                <div class="card-body">
+                                    <p class="text-xs">.text-xs</p>
+                                    <p class="text-lg mb-0">.text-lg</p>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <!-- Second Column -->
+                        <div class="col-lg-4">
+
+                            <!-- Background Gradient Utilities -->
+                            <div class="card shadow mb-4">
+                                <div class="card-header py-3">
+                                    <h6 class="m-0 font-weight-bold text-primary">Custom Background Gradient Utilities
+                                    </h6>
+                                </div>
+                                <div class="card-body">
+                                    <div class="px-3 py-5 bg-gradient-primary text-white">.bg-gradient-primary</div>
+                                    <div class="px-3 py-5 bg-gradient-secondary text-white">.bg-gradient-secondary</div>
+                                    <div class="px-3 py-5 bg-gradient-success text-white">.bg-gradient-success</div>
+                                    <div class="px-3 py-5 bg-gradient-info text-white">.bg-gradient-info</div>
+                                    <div class="px-3 py-5 bg-gradient-warning text-white">.bg-gradient-warning</div>
+                                    <div class="px-3 py-5 bg-gradient-danger text-white">.bg-gradient-danger</div>
+                                    <div class="px-3 py-5 bg-gradient-light text-white">.bg-gradient-light</div>
+                                    <div class="px-3 py-5 bg-gradient-dark text-white">.bg-gradient-dark</div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <!-- Third Column -->
+                        <div class="col-lg-4">
+
+                            <!-- Grayscale Utilities -->
+                            <div class="card shadow mb-4">
+                                <div class="card-header py-3">
+                                    <h6 class="m-0 font-weight-bold text-primary">Custom Grayscale Background Utilities
+                                    </h6>
+                                </div>
+                                <div class="card-body">
+                                    <div class="p-3 bg-gray-100">.bg-gray-100</div>
+                                    <div class="p-3 bg-gray-200">.bg-gray-200</div>
+                                    <div class="p-3 bg-gray-300">.bg-gray-300</div>
+                                    <div class="p-3 bg-gray-400">.bg-gray-400</div>
+                                    <div class="p-3 bg-gray-500 text-white">.bg-gray-500</div>
+                                    <div class="p-3 bg-gray-600 text-white">.bg-gray-600</div>
+                                    <div class="p-3 bg-gray-700 text-white">.bg-gray-700</div>
+                                    <div class="p-3 bg-gray-800 text-white">.bg-gray-800</div>
+                                    <div class="p-3 bg-gray-900 text-white">.bg-gray-900</div>
+                                </div>
+                            </div>
+                        </div>
+
                     </div>
 
                 </div>
@@ -393,56 +409,11 @@
             </div>
             <!-- End of Main Content -->
 
-            <!-- Footer -->
-            <footer class="sticky-footer bg-white">
-                <div class="container my-auto">
-                    <div class="copyright text-center my-auto">
-                        <span>Copyright &copy; Your Website 2020</span>
-                    </div>
-                </div>
-            </footer>
-            <!-- End of Footer -->
-
-        </div>
-        <!-- End of Content Wrapper -->
-
-    </div>
-    <!-- End of Page Wrapper -->
-
-    <!-- Scroll to Top Button-->
-    <a class="scroll-to-top rounded" href="#page-top">
-        <i class="fas fa-angle-up"></i>
-    </a>
-
-    <!-- Logout Modal-->
-    <div class="modal fade" id="logoutModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-        aria-hidden="true">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">Ready to Leave?</h5>
-                    <button class="close" type="button" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">×</span>
-                    </button>
-                </div>
-                <div class="modal-body">Select "Logout" below if you are ready to end your current session.</div>
-                <div class="modal-footer">
-                    <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
-                    <a class="btn btn-primary" href="login.html">Logout</a>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Bootstrap core JavaScript-->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-
-    <!-- Core plugin JavaScript-->
-    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
-
-    <!-- Custom scripts for all pages-->
-    <script src="js/sb-admin-2.min.js"></script>
+            <?php
+include"includes/footer1.php";
+include"includes/logmodel.php";
+include"includes/nav.php";
+?>
 
 </body>
 
