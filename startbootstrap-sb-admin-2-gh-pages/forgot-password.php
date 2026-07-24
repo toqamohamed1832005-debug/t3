@@ -57,7 +57,6 @@ include"includes/header.php";
 <?php
 include"includes/footer1.php";
 include"includes/logmodel.php";
-include"includes/nav.php";
 ?>
 </body>
 

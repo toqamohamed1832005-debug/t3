@@ -54,6 +54,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                         
                         $message = "Account created successfully! You can login now.";
                         $message_class = "alert-success";
+                        header("Location: index.php");
+                        exit();
+
                     }
                 } catch(PDOException $e) {
                     $message = "Error: " . $e->getMessage();
@@ -122,6 +125,20 @@ include"includes/header.php";
         <button type="submit" name="register_btn" class="btn btn-primary btn-user btn-block">
             Register Account
         </button>
+        <!-- Divider -->
+<hr>
+
+<!-- Register with Google Button -->
+<a href="#" class="btn btn-google btn-user btn-block">
+    <i class="fab fa-google fa-fw"></i> Register with Google
+</a>
+
+<!-- Register with Facebook Button -->
+<a href="#" class="btn btn-facebook btn-user btn-block">
+    <i class="fab fa-facebook-f fa-fw"></i> Register with Facebook
+</a>
+
+<hr>
         <hr>
     </form>
                             <hr>
